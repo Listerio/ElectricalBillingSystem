@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+body{
+    background: url("pexels-daniel-absi-952670.jpg") no-repeat;
+    background-size: cover;
+    color: #FFFFFE;
+}
+
+.registration-form{
+    margin-left: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+}
+
+.registration-form h1{
+    font-size:40px;
+    text-align: center;
+    text-decoration: #FF3E5F;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.registration-form input{
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 5px 5px;
+    width: 100%;
+}
+.registration-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 50%;
+    border: 0;
+    border-radius: 30px;
+    color: whitesmoke;
+    background: black;
+}
